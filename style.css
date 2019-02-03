@@ -1,0 +1,55 @@
+#header{
+    text-align: center;
+    font-size:2rem;
+}
+
+#presentation {
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    text-align:center;
+    font-weight: bold;
+    font-size:1.5rem;
+}
+
+#encrypt{
+    width: 47%;
+    margin-left: 2rem;
+    float:left;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#decrypt {
+    width: 47%;
+    margin-right: 2rem;
+    float:right;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.button {
+    background-color: #87CEEB;
+    border: solid;
+    color: black;
+    padding: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 6.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .button:hover {
+    background-color: #0033FF;
+}
+
+  body {
+      background-image: linear-gradient(yellow, lightblue);
+      height: 94vh;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  img {
+      width:4rem;
+      margin-top:-2rem;
+  }

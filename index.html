@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cifra de César</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="header">
+        <h1>Mensagens Criptografadas</h1>
+    </div>
+
+    <div id="presentation">
+        <img src=imgs/header.jpg> <p class="presentation">Que tal cifrar uma mensagem e torná-la secreta,
+        para que só você e quem você escolher possa saber seu significado?</p>
+    </div>
+
+    <div id="encrypt">
+        <p>Primeiro, preciso que você escolha o número de deslocamento para a nossa cifra. <br> Isso vai garantir que
+            só quem saiba esse número possa decifrar sua mensagem. <br> Depois, digite a frase a ser cifrada e clique
+            no botão. Vamos lá?</p>
+        <input type="number" placeholder="Número de deslocamento" id="jump" />
+        <input type="text" placeholder="Frase que deseja cifrar" id="typed" />
+        <p id='clickElement' class="button">Criptografe</p>
+        <p id="finalResult"></p>
+    </div>
+
+    <div id="decrypt">
+        <p>Veio aqui para decifrar alguma mensagem? Então este aqui é seu campo. <br> Mas não se
+            esqueça, você deve escolher o mesmo número de deslocamento que foi usado para cifrar essa mensagem.</p>
+        <input type="number" placeholder="Número de deslocamento" id="jump2" />
+        <input type="text" placeholder="Frase que deseja decifrar" id="retyped" />
+        <p id='clickElement2' class="button">Descriptografe</p>
+        <p id="finalResult2"></p>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="tests.js"></script>
+</body>
+
+</html>
