@@ -16,6 +16,6 @@ Para descriptografar, deve utilizar o campo a sua direita, escolhendo o deslocam
 # Pré requisitos #
 Para a utilização deste website o usuário necessita de um computador, laptop, tablet ou celular com acesso a internet e um navegador com JavaScript habilitado. Não é necessária nenhuma instalação adicional. 
 
-# Desenho do projeto com Diagrama de fluxo #
-![Diagrama de fluxo](imgs/Diagrama_de_fluxo.png)
+# Desenho do projeto com Diagrama de bloco #
+![Diagrama de bloco](imgs/Diagrama_de_fluxo.png)
 
